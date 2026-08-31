@@ -506,3 +506,18 @@ footer .footer-inner>a:hover{color:#7ce1b3}
     font-size: 12px;
   }
 }
+/* Mobile Header Brand Size */
+@media (max-width: 600px) {
+  .brand strong {
+    font-size: 15px !important;
+    font-weight: 800 !important;
+    color: #123f70 !important;
+  }
+
+  .brand small {
+    font-size: 10px !important;
+    font-weight: 700 !important;
+    color: #174f86 !important;
+    letter-spacing: 1.2px !important;
+  }
+}
