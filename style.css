@@ -555,3 +555,20 @@ footer .footer-inner>a:hover{color:#7ce1b3}
     color: #073b78 !important;
   }
 }
+.brand strong,
+.brand small {
+  font-family: Arial, sans-serif !important;
+  color: #073b78 !important;
+}
+
+.brand strong {
+  font-size: 16px !important;
+  font-weight: 900 !important;
+  letter-spacing: 1px !important;
+}
+
+.brand small {
+  font-size: 10px !important;
+  font-weight: 800 !important;
+  letter-spacing: 1.3px !important;
+}
