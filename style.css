@@ -536,3 +536,22 @@ footer .footer-inner>a:hover{color:#7ce1b3}
     letter-spacing: 1.3px !important;
   }
 }
+/* FINAL MOBILE BRAND FIX */
+
+@media (max-width: 650px) {
+  .site-header .brand strong {
+    font-size: 18px !important;
+    line-height: 1 !important;
+    font-family: Arial, sans-serif !important;
+    font-weight: 900 !important;
+    color: #073b78 !important;
+  }
+
+  .site-header .brand small {
+    font-size: 10px !important;
+    line-height: 1.2 !important;
+    font-family: Arial, sans-serif !important;
+    font-weight: 800 !important;
+    color: #073b78 !important;
+  }
+}
