@@ -572,3 +572,22 @@ footer .footer-inner>a:hover{color:#7ce1b3}
   font-weight: 800 !important;
   letter-spacing: 1.3px !important;
 }
+/* FINAL HEADER FONT */
+
+.site-header .brand strong,
+.site-header .brand small {
+    font-family: Arial, sans-serif !important;
+    color: #073b78 !important;
+}
+
+.site-header .brand strong {
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    letter-spacing: 1px !important;
+}
+
+.site-header .brand small {
+    font-size: 10px !important;
+    font-weight: 900 !important;
+    letter-spacing: 1px !important;
+}
