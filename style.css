@@ -633,36 +633,53 @@ footer .footer-inner>a:hover{color:#7ce1b3}
 
 }
 /* =================================
-   FINAL MOBILE TEXT SIZE
+   FINAL MOBILE TEXT SIZE - FIX
    ================================= */
 
-@media (max-width: 650px) {
+@media (max-width: 767px) {
 
-  /* About & Why Me */
-  .about-content > p:not(.eyebrow),
+  /* Main paragraph text */
+  p {
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+  }
+
+  /* Hero */
+  .hero-text {
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+  }
+
+  /* About */
+  .about-content > p:not(.eyebrow) {
+    font-size: 16px !important;
+    line-height: 1.75 !important;
+  }
+
+  /* Why Choose Me */
   .why-copy > p:not(.eyebrow) {
     font-size: 16px !important;
     line-height: 1.75 !important;
   }
 
   /* Service cards */
+  .service-card h3 {
+    font-size: 21px !important;
+  }
+
   .service-card p {
     font-size: 15px !important;
     line-height: 1.7 !important;
   }
 
-  .service-card h3 {
-    font-size: 21px !important;
+  /* Benefits */
+  .benefit h3 {
+    font-size: 20px !important;
   }
 
-  /* Benefits */
   .benefit p {
     font-size: 15px !important;
     line-height: 1.7 !important;
-  }
-
-  .benefit h3 {
-    font-size: 20px !important;
   }
 
   /* CTA */
@@ -672,7 +689,7 @@ footer .footer-inner>a:hover{color:#7ce1b3}
 
   /* Contact */
   .contact-copy > p:not(.eyebrow) {
-    font-size: 15px !important;
+    font-size: 16px !important;
     line-height: 1.7 !important;
   }
 
@@ -681,12 +698,38 @@ footer .footer-inner>a:hover{color:#7ce1b3}
   }
 
   .contact-details strong {
-    font-size: 14px !important;
+    font-size: 15px !important;
   }
 
-  /* QR text */
   .contact-action p {
-    font-size: 12px !important;
+    font-size: 13px !important;
+  }
+
+  /* Trust numbers */
+  .trust-row div strong {
+    font-size: 17px !important;
+  }
+
+  .trust-row div span {
+    font-size: 10px !important;
+  }
+
+  /* Info pills */
+  .info-pills strong {
+    font-size: 22px !important;
+  }
+
+  .info-pills span {
+    font-size: 10px !important;
+  }
+
+  /* Small labels */
+  .eyebrow {
+    font-size: 11px !important;
+  }
+
+  .section-label {
+    font-size: 11px !important;
   }
 
   /* Social */
@@ -700,22 +743,13 @@ footer .footer-inner>a:hover{color:#7ce1b3}
 
   /* Footer */
   .footer-inner strong {
-    font-size: 12px !important;
+    font-size: 13px !important;
   }
 
   .footer-inner span,
   .footer-inner p,
   .footer-inner > a {
-    font-size: 10px !important;
-  }
-
-  /* Small labels */
-  .section-label {
-    font-size: 10px !important;
-  }
-
-  .section-label span {
-    font-size: 17px !important;
+    font-size: 11px !important;
   }
 
 }
