@@ -591,3 +591,44 @@ footer .footer-inner>a:hover{color:#7ce1b3}
     font-weight: 900 !important;
     letter-spacing: 1px !important;
 }
+/* ================================
+   MOBILE BODY TEXT SIZE FIX
+   ================================ */
+
+@media (max-width: 650px) {
+
+  /* Normal paragraph / description text */
+  p {
+    font-size: 15px !important;
+    line-height: 1.65 !important;
+  }
+
+  /* Card descriptions */
+  .service p,
+  .benefit p,
+  .card p,
+  .about p,
+  .hero p,
+  .contact p {
+    font-size: 15px !important;
+    line-height: 1.65 !important;
+  }
+
+  /* Small supporting text */
+  .eyebrow {
+    font-size: 11px !important;
+    letter-spacing: 1.5px !important;
+  }
+
+  /* Normal links/text inside content */
+  .content a,
+  .section a {
+    font-size: 15px !important;
+  }
+
+  /* Social card small text */
+  .social-links small {
+    font-size: 12px !important;
+  }
+
+}
