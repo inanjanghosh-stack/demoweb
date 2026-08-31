@@ -632,3 +632,90 @@ footer .footer-inner>a:hover{color:#7ce1b3}
   }
 
 }
+/* =================================
+   FINAL MOBILE TEXT SIZE
+   ================================= */
+
+@media (max-width: 650px) {
+
+  /* About & Why Me */
+  .about-content > p:not(.eyebrow),
+  .why-copy > p:not(.eyebrow) {
+    font-size: 16px !important;
+    line-height: 1.75 !important;
+  }
+
+  /* Service cards */
+  .service-card p {
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+  }
+
+  .service-card h3 {
+    font-size: 21px !important;
+  }
+
+  /* Benefits */
+  .benefit p {
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+  }
+
+  .benefit h3 {
+    font-size: 20px !important;
+  }
+
+  /* CTA */
+  .cta-strip h3 {
+    font-size: 21px !important;
+  }
+
+  /* Contact */
+  .contact-copy > p:not(.eyebrow) {
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+  }
+
+  .contact-details span {
+    font-size: 10px !important;
+  }
+
+  .contact-details strong {
+    font-size: 14px !important;
+  }
+
+  /* QR text */
+  .contact-action p {
+    font-size: 12px !important;
+  }
+
+  /* Social */
+  .social-links strong {
+    font-size: 17px !important;
+  }
+
+  .social-links small {
+    font-size: 13px !important;
+  }
+
+  /* Footer */
+  .footer-inner strong {
+    font-size: 12px !important;
+  }
+
+  .footer-inner span,
+  .footer-inner p,
+  .footer-inner > a {
+    font-size: 10px !important;
+  }
+
+  /* Small labels */
+  .section-label {
+    font-size: 10px !important;
+  }
+
+  .section-label span {
+    font-size: 17px !important;
+  }
+
+}
